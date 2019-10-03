@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Meta tag adalah ‘data tentang data‘, dimana tag ini ditujukan bukan kepada user, tetapi kepada web browser atau kepada ‘robot program‘ seperti mesin pencari (search engine)-->
+    <!--UTF-8 yaitu karakterv yang mendukung karakter yang ada didunia -->
+    <!--charset digunakan untuk menerjemahkan bit-bit di dalam halaman HTML menjadi karakter.-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--membuat judul web-->
+    <title>Belajar JavaScript</title>
+    <script>
+        a = 5;
+        b = 7;
+        c = b / 0;
+        console.log(c); // Hasil: Infinity (division by zero)
+        d = 12 / 0;
+        console.log(d); // Hasil: Infinity (division by zero)
+        e = 1 + Math.pow(10, 309);
+        console.log(e); // Hasil: Infinity (overflow)
+        f = -Math.pow(10, 309) - 1;
+        console.log(f); // Hasil: -Infinity (negative infinity)
+        g = b + e;
+        console.log(g); // Hasil: Infinity (karena e dan b infinity)
+        h = 0 / 0;
+        console.log(h); // Hasil: NaN
+        i = Math.sqrt(-25);
+        console.log(i); // Hasil: NaN (akar kuadrat negatif)
+        j = c / d
+        console.log(j); // Hasil: NaN (c dan d sama-sama bernilai infinity)
+    </script>
+</head>
+
+<body>
+    <h1>Belajar JavaScript</h1>
+    <p> Saya sedang belajar pengertian NaN dan Infinity JavaScript
+    </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!--Meta tag adalah ‘data tentang data‘, dimana tag ini ditujukan bukan kepada user, tetapi kepada web browser atau kepada ‘robot program‘ seperti mesin pencari (search engine)-->
+    <!--UTF-8 yaitu karakterv yang mendukung karakter yang ada didunia -->
+    <!--charset digunakan untuk menerjemahkan bit-bit di dalam halaman HTML menjadi karakter.-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <!--memberi judul pada website-->
+    <title>Belajar JavaScript</title>
+    <!--<script></script> memberitahu web browser bahwa kode diantara tag tersebut bukanlah HTML, tetapi JavaScript.-->
+    <!--var hasil yaitu digunakan untuk mengitung hasil-->
+    <script>
+        window.onload = function()
+        {
+            var hasil;
+            hasil = 1+3+5+7+9;
+            document.getElementById("tempat_hasil").innerHTML=hasil;
+        }
+    </script>
+</head>
+<body>
+    <h1>Belajar JavaScript</h1>
+    <p> Saya sedang belajar JavaScript di jti.polije.com </p>
+    <!--<div></div>generik blok konten yang dapat digunakan sebagai kontainer (penampung) untuk meng-group beberapa elemen menjadi satu.-->
+    <!--div id yaitu memanggil tempat hasil pada script agar tidak menulis perintah kodingkan atau mempersimple atau mempermudah-->
+    <div id="tempat_hasil">
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!--membuat judul pada web-->
+    <title>Belajar JavaScript di Jti.polije</title>
+    <!--menentukan tipe bahasa yang digunakan untuk style tersebut dan menyisipkan kode style atau css kedalam sebuah dokumen-->
+    <script type="text/javascript">
+        function tambah_semangat()
+    {
+        var a=document.getElementById("div_semangat");
+        a.innerHTML+="<p>Sedang Belajar JavaScript, Semangat...!!!</p>";
+    }
+    </script>
+</head>
+<body>
+    <!--memberi judul-->
+    <h1>Belajar JavaScript</h1>
+    <!--membuat paragraf-->
+    <p> Saya sedang belajar JavaScript di jti.polije.com </p>
+        Klik tombol ini untuk menambahkan kalimat baru:
+        <!--membuat tombol button semangat dengan memanggil function tambah semangat-->
+    <button id="tambah" onclick="tambah_semangat()">Semangaat..!!</button>
+    <!--memanggi div_semangat pada script untuk memper simple agar tak mengetik kembali perintah yang diinginkan-->
+    <div id="div_semangat"></div>
+</body>
+</html>
